@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+*/node_modules/
+package-lock.json
+
+# Production build
+dist/
+build/
+*/dist/
+
+# Environment variables & local secrets
+.env
+.env.local
+.env.*.local
+*.env
+*.db
+*.sqlite
+*.sqlite3
+
+
+# Uploads and temporary data
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
